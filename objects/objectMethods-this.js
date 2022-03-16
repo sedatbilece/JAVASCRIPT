@@ -9,7 +9,4 @@ let user = {
   }
 
   };
-  
- 
-  
   user.selamVer();
