@@ -23,3 +23,7 @@ class User {
   console.log(user.name); // John
   
   user = new User(""); // Name is too short.
+
+  console.log(typeof User);//function yazdırır
+  console.log( User);//[class User] yazdırır
+
