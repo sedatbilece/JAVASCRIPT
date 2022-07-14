@@ -34,3 +34,20 @@ class User {
   
   Article2.publisher="sedat"
   console.log( Article2.publisher ); // sedat
+
+
+
+  // TASK ******************
+
+
+  class Rabbit extends Object {
+    constructor(name) {
+        super();
+      this.name = name;
+    }
+  }
+  
+  let rabbit = new Rabbit("Rab");
+  
+  console.log( rabbit.hasOwnProperty('name') ); // from Object
+  console.log( rabbit.valueOf() ); 
