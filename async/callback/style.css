@@ -1,0 +1,23 @@
+.box{
+
+    width: 150px;
+    height: 150px;
+    border:solid 1px black; 
+    transition: all .5s;
+}
+
+.box.bigger{
+    width: 300px;
+    height: 300px;
+    border: dotted 1px red;
+}
+
+.box.circle{
+    border-radius: 50%;
+}
+.box.move{
+    transform: translateX(300px);
+}
+.box.back{
+    background-color: rebeccapurple;
+}

@@ -20,7 +20,7 @@ func1()
 
 console.log("\n ***************** \n ");
 
-const { name } = require("tar/lib/types");
+//const { name } = require("tar/lib/types");
 
 
 // gecikme yaşanır 1:5 3:10 2:15 şeklinde gerçekleşir
