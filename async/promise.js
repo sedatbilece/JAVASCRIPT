@@ -1,31 +1,31 @@
-new Promise((resolve,reject)=>{
+new Promise((resolve, reject) => {
     // resolve veya reject sadece birisi çalışır
 
-//işlem başarılı ise 
-resolve({
-    name:"sedat",
-    surname:"bilece"
-});
+    //işlem başarılı ise 
+    resolve({
+        name: "sedat",
+        surname: "bilece"
+    });
 
 
-//işlem başarısız ise
-reject();
+    //işlem başarısız ise
+    reject();
 
 
-}).then( data => {//zincir yapısı
+}).then(data => {//zincir yapısı
 
-    data.web="url adresi";
+    data.web = "url adresi";
 
     return data;
 
-}).then( data => {
+}).then(data => {
 
     console.log(data);
 
-}).catch( data => {
+}).catch(data => {
 
     console.log(data);
 
-}).finally(()=>{
+}).finally(() => {
     console.log("tüm işlemler yapıldı ve bitti !");
 })
