@@ -1,0 +1,14 @@
+const opposite = number =>  0 - number ;
+
+
+ console.log( opposite(1.25))
+
+ /*
+Very simple, given an integer or a floating-point number, find its opposite.
+
+Examples:
+
+1: -1
+14: -14
+-34: 34
+ */
