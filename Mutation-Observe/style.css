@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: aquamarine;
+
+
+}
+
+.child{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    background-color: black;
+    color:azure;
+    padding: 20px;
+}
+.back{
+    background-color: yellow;
+}
+
+
+.wrapper{
+    display: flex;
+    justify-items: space-between;
+    align-items: center;
+    width: 80vw;
+    background-color: bisque;
+    padding: 20px;
+    height: 200px;
+
+}
+.box{
+    width:100%;
+    background-color: burlywood;
+    height:100%;
+
+}
+.small{
+    background-color: brown;
+}
