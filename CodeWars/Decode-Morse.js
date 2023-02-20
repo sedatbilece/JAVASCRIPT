@@ -1,4 +1,9 @@
-var obj = {    '.-':     'a',   '-...':   'b',   '-.-.':   'c',  '-..':    'd',  '.':      'e',   '..-.':   'f', '--.':    'g',  '....':   'h',  '..':     'i',  '.---':   'j',  '-.-':    'k', '.-..':   'l',  '--':     'm',  '-.':     'n', '---':    'o','.--.':   'p', '--.-':   'q',  '.-.':    'r', '...':    's', '-':      't', '..-':    'u', '...-':   'v', '.--':    'w', '-..-':   'x','-.--':   'y', '--..':   'z',  '.----':  '1',  '..---':  '2',  '...--':  '3', '....-':  '4', '.....':  '5', '-....':  '6', '--...':  '7', '---..':  '8','----.':  '9', '-----':  '0', };
+var obj = {    '.-':     'a',   '-...':   'b',   '-.-.':   'c',  '-..':    'd',  '.':      'e',   '..-.':   'f',
+ '--.':    'g',  '....':   'h',  '..':     'i',  '.---':   'j',  '-.-':    'k', '.-..':   'l',  '--':     'm',
+   '-.':     'n', '---':    'o','.--.':   'p', '--.-':   'q',  '.-.':    'r', '...':    's', '-':      't', 
+   '..-':    'u', '...-':   'v', '.--':    'w', '-..-':   'x','-.--':   'y', '--..':   'z',  '.----':  '1', 
+    '..---':  '2',  '...--':  '3', '....-':  '4', '.....':  '5', '-....':  '6', '--...':  '7', '---..':  '8',
+    '----.':  '9', '-----':  '0', };
 
 function decode(str) {
     if(str=='')return '';
@@ -19,7 +24,7 @@ function decode(str) {
   }
 
 
-  decode(".---- ... -  .- -. -..  ..--- -. -..")
+console.log(  decode(".---- ... -  .- -. -..  ..--- -. -.."))
 
 /*
 Oh no! You have stumbled upon a mysterious signal consisting of beeps of various lengths, and it is of utmost importance that you find out the secret message hidden in the beeps. There are long and short beeps, the longer ones roughly three times as long as the shorter ones. Hmm... that sounds familiar.
