@@ -1,8 +1,5 @@
 
-
 function AgoConverter(string){
-
-
     const day = 60 * 60 * 1000 * 24;
     const date = new Date(string);
     var now = new Date();
