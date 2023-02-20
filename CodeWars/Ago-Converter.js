@@ -40,4 +40,4 @@ function AgoConverter(string){
     return returnString;
 }
 
-console.log(AgoConverter("2022-03-20"))
+console.log(AgoConverter("2022-03-20"))// 1 yıl 2 ay 10 gün önce
